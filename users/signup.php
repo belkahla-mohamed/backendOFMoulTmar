@@ -1,5 +1,8 @@
 <?php
 include '../connect.php';
+header("Access-Control-Allow-Origin: *");
+header("Access-Control-Allow-Methods: POST, GET, OPTIONS");
+header("Access-Control-Allow-Headers: Content-Type, Authorization");
 if (empty($_POST['firstName']) || empty($_POST['lastName']) || empty($_POST['userName']) || empty($_POST['email']) || empty($_POST['phone']) || empty($_POST['password'])) {
     echo (json_encode(['status' => 'error', 'message' => 'all input must append']));
 }
