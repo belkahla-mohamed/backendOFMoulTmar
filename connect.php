@@ -1,7 +1,7 @@
 <?php
 header("Access-Control-Allow-Origin: *");
 header("Access-Control-Allow-Methods: POST");
-header("Access-Control-Allow-Headers: Content-Type");
+header("Access-Control-Allow-Headers: *");
 
 $host = "sql203.infinityfree.com";               // MySQL Hostname
 $user = "if0_39376655";                          // Username
