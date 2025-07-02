@@ -1,6 +1,6 @@
 <?php
 // Autoriser les requêtes cross-origin (CORS)
-header("Access-Control-Allow-Origin: *");
+header("Access-Control-Allow-Origin: https://moultmar.netlify.app");
 header("Access-Control-Allow-Methods: POST, GET, OPTIONS");
 header("Access-Control-Allow-Headers: Content-Type, Authorization");
 
